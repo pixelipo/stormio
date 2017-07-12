@@ -1,0 +1,20 @@
+// Pin definitions
+#define PIN_BUILTIN D0
+#define PIN_LED D1
+#define PIN_FOG D2
+#define PIN_PUMP D3
+#define PIN_SWITCH D4
+
+#define BRIGHTNESS 127 // max led brightness 0-255
+#define LED_COUNT 8 // number of pixels in Neopixel
+#define PLAYTIME 900000 // time to run each simulation (ms)
+
+const char* ussid = "ssid";
+const char* pwd = "password";
+const char* host = "api.darksky.net";
+const int port = 443;
+const String secret = "darksky_secret";
+const String lat = "latitude";
+const String lon = "longitude";
+const int unix_zero = 1498892400; // July 1st 2017, 07:00
+const int unix_hour = 3600;
